@@ -38,8 +38,6 @@ obs2: Execute o comando yarn init se você ainda não tiver um arquivo package.j
     d. Selecionar a pasta jdk-1.8
 7. Clicar em ok para fechar todas as janelas.
  
-
-
 ## Executando os testes
 
 Para executar os testes, utilize o seguinte comando:
@@ -56,7 +54,8 @@ Será necessário executar algumas linhas de comando para acessar o relatório n
 4. yarn add http-server -D
 5. yarn http-server report-server/
 
-No terminal, será indicada a porta em que o relatório subiu. Exemplo: http://localhost:8080/
+No terminal, será indicada a porta em que o relatório subiu. tag <br />
+Exemplo: http://localhost:8080/
 
 
 
