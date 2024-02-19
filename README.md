@@ -55,7 +55,24 @@ Para acessar o relatório gerado pelo Allure Reports, siga estas etapas:
 
    ```bash
    yarn cypress run --env allure=true
+2. Após a execução dos testes, gere o relatório Allure executando o seguinte comando:
 
+   ```bash
+    yarn allure generate ./allure-results/ -o ./report-server
+
+3. Inicie um servidor local para visualizar o relatório. Para fazer isso, primeiro, instale o servidor HTTP usando o seguinte comando:
+
+  ```bash
+  yarn add http-server -D
+
+Em seguida, execute o seguinte comando para iniciar o servidor:
+
+  ```bash
+  yarn http-server report-server/
+
+
+
+Certifique-se de substituir `tag` pela porta que foi indicada no terminal após iniciar o servidor HTTP. Geralmente, a porta padrão é `8080`, mas pode variar dependendo da configuração do seu ambiente.
 
 No terminal, será indicada a porta em que o relatório subiu. tag <br />
 Exemplo: http://localhost:8080/
