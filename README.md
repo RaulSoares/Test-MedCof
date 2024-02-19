@@ -15,12 +15,12 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 
 ## Instalação
 
-**1.** Clone este repositório para sua máquina local;
-**2.** Navegue até o diretório do projeto;
-**3.** Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: **yarn install**; tag <br />
+1. Clone este repositório para sua máquina local;
+2. Navegue até o diretório do projeto;
+3. Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: **yarn install**; tag <br />
 **obs1:** Caso yarn não funcione, execute: **npm install**tag <br />
 **obs2:** Execute o comando **yarn init** se você ainda não tiver um arquivo package.json
-**5.** Dentro do diretório do projeto MedCof, inicialize o cypress com o seguinte comando: **yarn add cypress@12.2.0 -D**
+4. Dentro do diretório do projeto MedCof, inicialize o cypress com o seguinte comando: **yarn add cypress@12.2.0 -D**
 
 ## Instalação e Configuração Allure Reports
 
