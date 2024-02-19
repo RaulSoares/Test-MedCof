@@ -69,14 +69,14 @@ Para acessar o relatório gerado pelo Allure Reports, siga estas etapas:
   yarn add http-server -D
 
 
-Em seguida, execute o seguinte comando para iniciar o servidor:
+4. Em seguida, execute o seguinte comando para iniciar o servidor:
 
   ```bash
   yarn http-server report-server/
 
 
 
-Certifique-se de substituir `tag` pela porta que foi indicada no terminal após iniciar o servidor HTTP. Geralmente, a porta padrão é `8080`, mas pode variar dependendo da configuração do seu ambiente.
+5. Certifique-se de substituir `tag` pela porta que foi indicada no terminal após iniciar o servidor HTTP. Geralmente, a porta padrão é `8080`, mas pode variar dependendo da configuração do seu ambiente.
 
 No terminal, será indicada a porta em que o relatório subiu. tag <br />
 Exemplo: http://localhost:8080/
