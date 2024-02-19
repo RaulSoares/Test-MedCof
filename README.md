@@ -11,31 +11,30 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 - Node.js: https://nodejs.org/
 - Cypress: https://www.cypress.io/
 - Java 8: https://www.oracle.com/java/technologies/downloads/#java8
-
-obs: É necessário ter o java 8 instalado para ser possível utilizar o plugin de reports da Allure.
+**obs**: É necessário ter o java 8 instalado para ser possível utilizar o plugin de reports da Allure.
 
 ## Instalação
 
-1. Clone este repositório para sua máquina local;
-2. Navegue até o diretório do projeto;
-3. Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: yarn install;tag <br />
-obs1: Caso yarn não funcione, execute: npm installtag <br />
-obs2: Execute o comando yarn init se você ainda não tiver um arquivo package.json
-5. Dentro do diretório do projeto MedCof, inicialize o cypress com o seguinte comando: yarn add cypress@12.2.0 -D
+**1.** Clone este repositório para sua máquina local;
+**2.** Navegue até o diretório do projeto;
+**3.** Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: **yarn install**; tag <br />
+**obs1:** Caso yarn não funcione, execute: **npm install**tag <br />
+**obs2:** Execute o comando **yarn init** se você ainda não tiver um arquivo package.json
+**5.** Dentro do diretório do projeto MedCof, inicialize o cypress com o seguinte comando: **yarn add cypress@12.2.0 -D**
 
 ## Instalação e Configuração Allure Reports
 
  Já com o Java 8 instalado, crie uma variavél de ambiente para perfeito funcionamento do Allure reports com os seguintes passos:
- 1. Clicar com o botão direito em "Este Computador" e clicar em propriedades;
- 2. CLicar em configurações avançadas do sistema;
- 3. CLicar em variáveis de ambiente;
- 4. Clicar em novo para variáveis do sistema;
- 5. Definir um nome da variável, como: JAVA_HOME;
+ **1.** Clicar com o botão direito em "Este Computador" e clicar em propriedades;
+** 2.** CLicar em configurações avançadas do sistema;
+** 3.** CLicar em variáveis de ambiente;
+** 4.** Clicar em novo para variáveis do sistema;
+** 5.** Definir um nome da variável, como: JAVA_HOME;
  6. Clicar em Procurar no Diretório:tag <br />
-    a. Expandir Este Computador;tag <br />
-    b. Expandir Arquivos de Programas;tag <br />
-    c. Expandir Java;tag <br />
-    d. Selecionar a pasta jdk-1.8
+   ** a.** Expandir Este Computador;tag <br />
+   ** b.** Expandir Arquivos de Programas;tag <br />
+    **c.** Expandir Java;tag <br />
+   ** d.** Selecionar a pasta jdk-1.8
 7. Clicar em ok para fechar todas as janelas.
  
 ## Executando os testes
