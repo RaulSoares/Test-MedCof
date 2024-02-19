@@ -25,11 +25,11 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 ## Instalação e Configuração Allure Reports
 
  Já com o Java 8 instalado, crie uma variavél de ambiente para perfeito funcionamento do Allure reports com os seguintes passos:
- **1.** Clicar com o botão direito em "Este Computador" e clicar em propriedades;
-** 2.** CLicar em configurações avançadas do sistema;
-** 3.** CLicar em variáveis de ambiente;
-** 4.** Clicar em novo para variáveis do sistema;
-** 5.** Definir um nome da variável, como: JAVA_HOME;
+ 1. Clicar com o botão direito em "Este Computador" e clicar em propriedades;
+ 2. CLicar em configurações avançadas do sistema;
+ 3. CLicar em variáveis de ambiente;
+ 4. Clicar em novo para variáveis do sistema;
+ 5. Definir um nome da variável, como: JAVA_HOME;
  6. Clicar em Procurar no Diretório:tag <br />
    ** a.** Expandir Este Computador;tag <br />
    ** b.** Expandir Arquivos de Programas;tag <br />
