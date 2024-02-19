@@ -31,10 +31,10 @@ obs2: Execute o comando yarn init se você ainda não tiver um arquivo package.j
  3. CLicar em variáveis de ambiente;
  4. Clicar em novo para variáveis do sistema;
  5. Definir um nome da variável, como: JAVA_HOME;
- 6. Clicar em Procurar no Diretório:
-    a. Expandir Este Computador;
-    b. Expandir Arquivos de Programas;
-    c. Expandir Java;
+ 6. Clicar em Procurar no Diretório:tag <br />
+    a. Expandir Este Computador;tag <br />
+    b. Expandir Arquivos de Programas;tag <br />
+    c. Expandir Java;tag <br />
     d. Selecionar a pasta jdk-1.8
 7. Clicar em ok para fechar todas as janelas.
  
