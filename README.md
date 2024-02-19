@@ -60,19 +60,19 @@ Para acessar o relatório gerado pelo Allure Reports, siga estas etapas:
 2. Após a execução dos testes, gere o relatório Allure executando o seguinte comando:
 
   
-    yarn allure generate ./allure-results/ -o ./report-server
+ yarn allure generate ./allure-results/ -o ./report-server
 
 
 3. Inicie um servidor local para visualizar o relatório. Para fazer isso, primeiro, instale o servidor HTTP usando o seguinte comando:
 
  
-  yarn add http-server -D
+ yarn add http-server -D
 
 
 4. Em seguida, execute o seguinte comando para iniciar o servidor:
 
 
-  yarn http-server report-server/
+ yarn http-server report-server/
 
 
 
