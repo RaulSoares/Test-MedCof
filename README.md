@@ -47,11 +47,15 @@ Para executar os testes, utilize o seguinte comando:
 ## Executando os testes para gerar relatório no Allure Reports
 
 Será necessário executar algumas linhas de comando para acessar o relatório no allure reports. No caso abaixo, vamos subir um servidor local para acessar o mesmo:
-1. yarn cypress run --env allure=true
-2. yarn allure serve
-3. yarn allure generate ./allure-results/ -o ./report-server
-4. yarn add http-server -D
-5. yarn http-server report-server/
+## Acessando o Relatório no Allure Reports
+
+Para acessar o relatório gerado pelo Allure Reports, siga estas etapas:
+
+1. Certifique-se de que você tenha executado os testes com a flag `allure=true` para gerar os resultados necessários. Você pode fazer isso executando o seguinte comando:
+
+   ```bash
+   yarn cypress run --env allure=true
+
 
 No terminal, será indicada a porta em que o relatório subiu. tag <br />
 Exemplo: http://localhost:8080/
