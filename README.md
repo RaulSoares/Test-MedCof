@@ -31,10 +31,10 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
  4. Clicar em novo para variáveis do sistema;
  5. Definir um nome da variável, como: JAVA_HOME;
  6. Clicar em Procurar no Diretório:tag <br />
-   ** a.** Expandir Este Computador;tag <br />
-   ** b.** Expandir Arquivos de Programas;tag <br />
-    **c.** Expandir Java;tag <br />
-   ** d.** Selecionar a pasta jdk-1.8
+    a. Expandir Este Computador;tag <br />
+    b. Expandir Arquivos de Programas;tag <br />
+    c. Expandir Java;tag <br />
+    d. Selecionar a pasta jdk-1.8
 7. Clicar em ok para fechar todas as janelas.
  
 ## Executando os testes
