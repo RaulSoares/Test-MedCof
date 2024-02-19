@@ -18,8 +18,8 @@ obs: É necessário ter o java 8 instalado para ser possível utilizar o plugin 
 
 1. Clone este repositório para sua máquina local;
 2. Navegue até o diretório do projeto;
-3. Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: yarn install;
-obs1: Caso yarn não funcione, execute: npm install
+3. Dentro do diretório do projeto MedCof, inicialize um projeto node com o seguinte comando: yarn install;tag <br />
+obs1: Caso yarn não funcione, execute: npm installtag <br />
 obs2: Execute o comando yarn init se você ainda não tiver um arquivo package.json
 5. Dentro do diretório do projeto MedCof, inicialize o cypress com o seguinte comando: yarn add cypress@12.2.0 -D
 
